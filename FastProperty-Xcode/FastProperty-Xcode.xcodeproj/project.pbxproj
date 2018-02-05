@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEE25C85202840C800FAD675 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE25C84202840C800FAD675 /* AppDelegate.m */; };
+		CEE25C87202840C800FAD675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE25C86202840C800FAD675 /* Assets.xcassets */; };
+		CEE25C8A202840C800FAD675 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE25C88202840C800FAD675 /* MainMenu.xib */; };
+		CEE25C8D202840C800FAD675 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE25C8C202840C800FAD675 /* main.m */; };
+		CEE25C98202840C900FAD675 /* FastProperty_XcodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE25C97202840C900FAD675 /* FastProperty_XcodeTests.m */; };
+		CEE25CA3202840C900FAD675 /* FastProperty_XcodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE25CA2202840C900FAD675 /* FastProperty_XcodeUITests.m */; };
+		CEE25CB7202840D500FAD675 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE25CB6202840D500FAD675 /* Cocoa.framework */; };
+		CEE25CBB202840D500FAD675 /* SourceEditorExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE25CBA202840D500FAD675 /* SourceEditorExtension.m */; };
+		CEE25CBE202840D500FAD675 /* SourceEditorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE25CBD202840D500FAD675 /* SourceEditorCommand.m */; };
+		CEE25CC3202840D500FAD675 /* FastProperty.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CEE25CB4202840D500FAD675 /* FastProperty.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEE25C94202840C900FAD675 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE25C78202840C800FAD675 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEE25C7F202840C800FAD675;
+			remoteInfo = "FastProperty-Xcode";
+		};
+		CEE25C9F202840C900FAD675 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE25C78202840C800FAD675 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEE25C7F202840C800FAD675;
+			remoteInfo = "FastProperty-Xcode";
+		};
+		CEE25CC1202840D500FAD675 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE25C78202840C800FAD675 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEE25CB3202840D500FAD675;
+			remoteInfo = FastProperty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CEE25CC7202840D500FAD675 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CEE25CC3202840D500FAD675 /* FastProperty.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CEE25C80202840C800FAD675 /* FastProperty-Xcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FastProperty-Xcode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE25C83202840C800FAD675 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEE25C84202840C800FAD675 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEE25C86202840C800FAD675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEE25C89202840C800FAD675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CEE25C8B202840C800FAD675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE25C8C202840C800FAD675 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEE25C8E202840C800FAD675 /* FastProperty_Xcode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FastProperty_Xcode.entitlements; sourceTree = "<group>"; };
+		CEE25C93202840C900FAD675 /* FastProperty-XcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FastProperty-XcodeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE25C97202840C900FAD675 /* FastProperty_XcodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastProperty_XcodeTests.m; sourceTree = "<group>"; };
+		CEE25C99202840C900FAD675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE25C9E202840C900FAD675 /* FastProperty-XcodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FastProperty-XcodeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE25CA2202840C900FAD675 /* FastProperty_XcodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastProperty_XcodeUITests.m; sourceTree = "<group>"; };
+		CEE25CA4202840C900FAD675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE25CB4202840D500FAD675 /* FastProperty.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FastProperty.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE25CB6202840D500FAD675 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CEE25CB9202840D500FAD675 /* SourceEditorExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorExtension.h; sourceTree = "<group>"; };
+		CEE25CBA202840D500FAD675 /* SourceEditorExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorExtension.m; sourceTree = "<group>"; };
+		CEE25CBC202840D500FAD675 /* SourceEditorCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorCommand.h; sourceTree = "<group>"; };
+		CEE25CBD202840D500FAD675 /* SourceEditorCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorCommand.m; sourceTree = "<group>"; };
+		CEE25CBF202840D500FAD675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE25CC0202840D500FAD675 /* FastProperty.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FastProperty.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEE25C7D202840C800FAD675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE25C90202840C900FAD675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE25C9B202840C900FAD675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE25CB1202840D500FAD675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE25CB7202840D500FAD675 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEE25C77202840C800FAD675 = {
+			isa = PBXGroup;
+			children = (
+				CEE25C82202840C800FAD675 /* FastProperty-Xcode */,
+				CEE25C96202840C900FAD675 /* FastProperty-XcodeTests */,
+				CEE25CA1202840C900FAD675 /* FastProperty-XcodeUITests */,
+				CEE25CB8202840D500FAD675 /* FastProperty */,
+				CEE25CB5202840D500FAD675 /* Frameworks */,
+				CEE25C81202840C800FAD675 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEE25C81202840C800FAD675 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE25C80202840C800FAD675 /* FastProperty-Xcode.app */,
+				CEE25C93202840C900FAD675 /* FastProperty-XcodeTests.xctest */,
+				CEE25C9E202840C900FAD675 /* FastProperty-XcodeUITests.xctest */,
+				CEE25CB4202840D500FAD675 /* FastProperty.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE25C82202840C800FAD675 /* FastProperty-Xcode */ = {
+			isa = PBXGroup;
+			children = (
+				CEE25C83202840C800FAD675 /* AppDelegate.h */,
+				CEE25C84202840C800FAD675 /* AppDelegate.m */,
+				CEE25C86202840C800FAD675 /* Assets.xcassets */,
+				CEE25C88202840C800FAD675 /* MainMenu.xib */,
+				CEE25C8B202840C800FAD675 /* Info.plist */,
+				CEE25C8C202840C800FAD675 /* main.m */,
+				CEE25C8E202840C800FAD675 /* FastProperty_Xcode.entitlements */,
+			);
+			path = "FastProperty-Xcode";
+			sourceTree = "<group>";
+		};
+		CEE25C96202840C900FAD675 /* FastProperty-XcodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEE25C97202840C900FAD675 /* FastProperty_XcodeTests.m */,
+				CEE25C99202840C900FAD675 /* Info.plist */,
+			);
+			path = "FastProperty-XcodeTests";
+			sourceTree = "<group>";
+		};
+		CEE25CA1202840C900FAD675 /* FastProperty-XcodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEE25CA2202840C900FAD675 /* FastProperty_XcodeUITests.m */,
+				CEE25CA4202840C900FAD675 /* Info.plist */,
+			);
+			path = "FastProperty-XcodeUITests";
+			sourceTree = "<group>";
+		};
+		CEE25CB5202840D500FAD675 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEE25CB6202840D500FAD675 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEE25CB8202840D500FAD675 /* FastProperty */ = {
+			isa = PBXGroup;
+			children = (
+				CEE25CB9202840D500FAD675 /* SourceEditorExtension.h */,
+				CEE25CBA202840D500FAD675 /* SourceEditorExtension.m */,
+				CEE25CBC202840D500FAD675 /* SourceEditorCommand.h */,
+				CEE25CBD202840D500FAD675 /* SourceEditorCommand.m */,
+				CEE25CBF202840D500FAD675 /* Info.plist */,
+				CEE25CC0202840D500FAD675 /* FastProperty.entitlements */,
+			);
+			path = FastProperty;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEE25C7F202840C800FAD675 /* FastProperty-Xcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE25CA7202840C900FAD675 /* Build configuration list for PBXNativeTarget "FastProperty-Xcode" */;
+			buildPhases = (
+				CEE25C7C202840C800FAD675 /* Sources */,
+				CEE25C7D202840C800FAD675 /* Frameworks */,
+				CEE25C7E202840C800FAD675 /* Resources */,
+				CEE25CC7202840D500FAD675 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEE25CC2202840D500FAD675 /* PBXTargetDependency */,
+			);
+			name = "FastProperty-Xcode";
+			productName = "FastProperty-Xcode";
+			productReference = CEE25C80202840C800FAD675 /* FastProperty-Xcode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEE25C92202840C900FAD675 /* FastProperty-XcodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE25CAA202840C900FAD675 /* Build configuration list for PBXNativeTarget "FastProperty-XcodeTests" */;
+			buildPhases = (
+				CEE25C8F202840C900FAD675 /* Sources */,
+				CEE25C90202840C900FAD675 /* Frameworks */,
+				CEE25C91202840C900FAD675 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEE25C95202840C900FAD675 /* PBXTargetDependency */,
+			);
+			name = "FastProperty-XcodeTests";
+			productName = "FastProperty-XcodeTests";
+			productReference = CEE25C93202840C900FAD675 /* FastProperty-XcodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEE25C9D202840C900FAD675 /* FastProperty-XcodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE25CAD202840C900FAD675 /* Build configuration list for PBXNativeTarget "FastProperty-XcodeUITests" */;
+			buildPhases = (
+				CEE25C9A202840C900FAD675 /* Sources */,
+				CEE25C9B202840C900FAD675 /* Frameworks */,
+				CEE25C9C202840C900FAD675 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEE25CA0202840C900FAD675 /* PBXTargetDependency */,
+			);
+			name = "FastProperty-XcodeUITests";
+			productName = "FastProperty-XcodeUITests";
+			productReference = CEE25C9E202840C900FAD675 /* FastProperty-XcodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CEE25CB3202840D500FAD675 /* FastProperty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE25CC4202840D500FAD675 /* Build configuration list for PBXNativeTarget "FastProperty" */;
+			buildPhases = (
+				CEE25CB0202840D500FAD675 /* Sources */,
+				CEE25CB1202840D500FAD675 /* Frameworks */,
+				CEE25CB2202840D500FAD675 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastProperty;
+			productName = FastProperty;
+			productReference = CEE25CB4202840D500FAD675 /* FastProperty.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEE25C78202840C800FAD675 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = CP;
+				TargetAttributes = {
+					CEE25C7F202840C800FAD675 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CEE25C92202840C900FAD675 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CEE25C7F202840C800FAD675;
+					};
+					CEE25C9D202840C900FAD675 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CEE25C7F202840C800FAD675;
+					};
+					CEE25CB3202840D500FAD675 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CEE25C7B202840C800FAD675 /* Build configuration list for PBXProject "FastProperty-Xcode" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEE25C77202840C800FAD675;
+			productRefGroup = CEE25C81202840C800FAD675 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEE25C7F202840C800FAD675 /* FastProperty-Xcode */,
+				CEE25C92202840C900FAD675 /* FastProperty-XcodeTests */,
+				CEE25C9D202840C900FAD675 /* FastProperty-XcodeUITests */,
+				CEE25CB3202840D500FAD675 /* FastProperty */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEE25C7E202840C800FAD675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE25C87202840C800FAD675 /* Assets.xcassets in Resources */,
+				CEE25C8A202840C800FAD675 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE25C91202840C900FAD675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE25C9C202840C900FAD675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE25CB2202840D500FAD675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEE25C7C202840C800FAD675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE25C8D202840C800FAD675 /* main.m in Sources */,
+				CEE25C85202840C800FAD675 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE25C8F202840C900FAD675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE25C98202840C900FAD675 /* FastProperty_XcodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE25C9A202840C900FAD675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE25CA3202840C900FAD675 /* FastProperty_XcodeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE25CB0202840D500FAD675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE25CBB202840D500FAD675 /* SourceEditorExtension.m in Sources */,
+				CEE25CBE202840D500FAD675 /* SourceEditorCommand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEE25C95202840C900FAD675 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEE25C7F202840C800FAD675 /* FastProperty-Xcode */;
+			targetProxy = CEE25C94202840C900FAD675 /* PBXContainerItemProxy */;
+		};
+		CEE25CA0202840C900FAD675 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEE25C7F202840C800FAD675 /* FastProperty-Xcode */;
+			targetProxy = CEE25C9F202840C900FAD675 /* PBXContainerItemProxy */;
+		};
+		CEE25CC2202840D500FAD675 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEE25CB3202840D500FAD675 /* FastProperty */;
+			targetProxy = CEE25CC1202840D500FAD675 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEE25C88202840C800FAD675 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE25C89202840C800FAD675 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEE25CA5202840C900FAD675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CEE25CA6202840C900FAD675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CEE25CA8202840C900FAD675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "FastProperty-Xcode/FastProperty_Xcode.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z86KV8L6M8;
+				INFOPLIST_FILE = "FastProperty-Xcode/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.viper.FastProperty-Xcode.FastProperty-Xcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEE25CA9202840C900FAD675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "FastProperty-Xcode/FastProperty_Xcode.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z86KV8L6M8;
+				INFOPLIST_FILE = "FastProperty-Xcode/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.viper.FastProperty-Xcode.FastProperty-Xcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEE25CAB202840C900FAD675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z86KV8L6M8;
+				INFOPLIST_FILE = "FastProperty-XcodeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.viper.FastProperty-Xcode.FastProperty-XcodeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastProperty-Xcode.app/Contents/MacOS/FastProperty-Xcode";
+			};
+			name = Debug;
+		};
+		CEE25CAC202840C900FAD675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z86KV8L6M8;
+				INFOPLIST_FILE = "FastProperty-XcodeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.viper.FastProperty-Xcode.FastProperty-XcodeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastProperty-Xcode.app/Contents/MacOS/FastProperty-Xcode";
+			};
+			name = Release;
+		};
+		CEE25CAE202840C900FAD675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z86KV8L6M8;
+				INFOPLIST_FILE = "FastProperty-XcodeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.viper.FastProperty-Xcode.FastProperty-XcodeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "FastProperty-Xcode";
+			};
+			name = Debug;
+		};
+		CEE25CAF202840C900FAD675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z86KV8L6M8;
+				INFOPLIST_FILE = "FastProperty-XcodeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.viper.FastProperty-Xcode.FastProperty-XcodeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "FastProperty-Xcode";
+			};
+			name = Release;
+		};
+		CEE25CC5202840D500FAD675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FastProperty/FastProperty.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z86KV8L6M8;
+				INFOPLIST_FILE = FastProperty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.viper.FastProperty-Xcode.FastProperty-Xcode.FastProperty";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CEE25CC6202840D500FAD675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FastProperty/FastProperty.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z86KV8L6M8;
+				INFOPLIST_FILE = FastProperty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.viper.FastProperty-Xcode.FastProperty-Xcode.FastProperty";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEE25C7B202840C800FAD675 /* Build configuration list for PBXProject "FastProperty-Xcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE25CA5202840C900FAD675 /* Debug */,
+				CEE25CA6202840C900FAD675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE25CA7202840C900FAD675 /* Build configuration list for PBXNativeTarget "FastProperty-Xcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE25CA8202840C900FAD675 /* Debug */,
+				CEE25CA9202840C900FAD675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE25CAA202840C900FAD675 /* Build configuration list for PBXNativeTarget "FastProperty-XcodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE25CAB202840C900FAD675 /* Debug */,
+				CEE25CAC202840C900FAD675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE25CAD202840C900FAD675 /* Build configuration list for PBXNativeTarget "FastProperty-XcodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE25CAE202840C900FAD675 /* Debug */,
+				CEE25CAF202840C900FAD675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE25CC4202840D500FAD675 /* Build configuration list for PBXNativeTarget "FastProperty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE25CC5202840D500FAD675 /* Debug */,
+				CEE25CC6202840D500FAD675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEE25C78202840C800FAD675 /* Project object */;
+}
