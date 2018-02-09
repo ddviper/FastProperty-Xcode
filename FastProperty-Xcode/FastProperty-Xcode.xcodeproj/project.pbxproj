@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEE1BC2B202D9ECC00B32561 /* DCRemoveDuplicateImportHeaders.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE1BC2A202D9ECC00B32561 /* DCRemoveDuplicateImportHeaders.m */; };
+		CEE1BC2E202DA5C400B32561 /* NSString+fastProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE1BC2D202DA5C400B32561 /* NSString+fastProperty.m */; };
 		CEE25C85202840C800FAD675 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE25C84202840C800FAD675 /* AppDelegate.m */; };
 		CEE25C87202840C800FAD675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE25C86202840C800FAD675 /* Assets.xcassets */; };
 		CEE25C8A202840C800FAD675 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE25C88202840C800FAD675 /* MainMenu.xib */; };
@@ -58,6 +60,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CEE1BC29202D9ECC00B32561 /* DCRemoveDuplicateImportHeaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCRemoveDuplicateImportHeaders.h; sourceTree = "<group>"; };
+		CEE1BC2A202D9ECC00B32561 /* DCRemoveDuplicateImportHeaders.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCRemoveDuplicateImportHeaders.m; sourceTree = "<group>"; };
+		CEE1BC2C202DA5C400B32561 /* NSString+fastProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+fastProperty.h"; sourceTree = "<group>"; };
+		CEE1BC2D202DA5C400B32561 /* NSString+fastProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+fastProperty.m"; sourceTree = "<group>"; };
 		CEE25C80202840C800FAD675 /* FastProperty-Xcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FastProperty-Xcode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE25C83202840C800FAD675 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEE25C84202840C800FAD675 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -187,6 +193,10 @@
 				CEE25CBD202840D500FAD675 /* SourceEditorCommand.m */,
 				CEE25CBF202840D500FAD675 /* Info.plist */,
 				CEE25CC0202840D500FAD675 /* FastProperty.entitlements */,
+				CEE1BC29202D9ECC00B32561 /* DCRemoveDuplicateImportHeaders.h */,
+				CEE1BC2A202D9ECC00B32561 /* DCRemoveDuplicateImportHeaders.m */,
+				CEE1BC2C202DA5C400B32561 /* NSString+fastProperty.h */,
+				CEE1BC2D202DA5C400B32561 /* NSString+fastProperty.m */,
 			);
 			path = FastProperty;
 			sourceTree = "<group>";
@@ -379,7 +389,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE1BC2E202DA5C400B32561 /* NSString+fastProperty.m in Sources */,
 				CEE25CBB202840D500FAD675 /* SourceEditorExtension.m in Sources */,
+				CEE1BC2B202D9ECC00B32561 /* DCRemoveDuplicateImportHeaders.m in Sources */,
 				CEE25CBE202840D500FAD675 /* SourceEditorCommand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

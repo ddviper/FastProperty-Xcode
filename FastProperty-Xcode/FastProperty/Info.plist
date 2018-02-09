@@ -32,7 +32,15 @@
 					<key>XCSourceEditorCommandClassName</key>
 					<string>SourceEditorCommand</string>
 					<key>XCSourceEditorCommandIdentifier</key>
-					<string>$(PRODUCT_BUNDLE_IDENTIFIER).SourceEditorCommand</string>
+					<string>RemoveDuplicateHeaders</string>
+					<key>XCSourceEditorCommandName</key>
+					<string>RemoveDuplicateHeaders</string>
+				</dict>
+				<dict>
+					<key>XCSourceEditorCommandClassName</key>
+					<string>SourceEditorCommand</string>
+					<key>XCSourceEditorCommandIdentifier</key>
+					<string>FastProperty</string>
 					<key>XCSourceEditorCommandName</key>
 					<string>FastProperty</string>
 				</dict>
@@ -40,7 +48,7 @@
 					<key>XCSourceEditorCommandClassName</key>
 					<string>SourceEditorCommand</string>
 					<key>XCSourceEditorCommandIdentifier</key>
-					<string>$(PRODUCT_BUNDLE_IDENTIFIER).SourceEditorCommand</string>
+					<string>AudoImport</string>
 					<key>XCSourceEditorCommandName</key>
 					<string>AudoImport</string>
 				</dict>
