@@ -34,7 +34,7 @@
 					<key>XCSourceEditorCommandIdentifier</key>
 					<string>RemoveDuplicateHeaders</string>
 					<key>XCSourceEditorCommandName</key>
-					<string>RemoveDuplicateHeaders</string>
+					<string>去除重复头文件</string>
 				</dict>
 				<dict>
 					<key>XCSourceEditorCommandClassName</key>
@@ -42,7 +42,7 @@
 					<key>XCSourceEditorCommandIdentifier</key>
 					<string>FastProperty</string>
 					<key>XCSourceEditorCommandName</key>
-					<string>FastProperty</string>
+					<string>快速增加属性</string>
 				</dict>
 				<dict>
 					<key>XCSourceEditorCommandClassName</key>
@@ -50,7 +50,7 @@
 					<key>XCSourceEditorCommandIdentifier</key>
 					<string>AudoImport</string>
 					<key>XCSourceEditorCommandName</key>
-					<string>AudoImport</string>
+					<string>自动导入头文件</string>
 				</dict>
 			</array>
 			<key>XCSourceEditorExtensionPrincipalClass</key>
